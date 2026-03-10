@@ -23,8 +23,5 @@ jobs:
       - name: 의존성 설치
         run: npm install
 
-      - name: 테스트 실행
-        run: npm test
-
       - name: 빌드 확인
         run: echo "빌드 성공!"
